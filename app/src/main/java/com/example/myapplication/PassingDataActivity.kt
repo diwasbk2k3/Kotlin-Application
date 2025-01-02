@@ -32,9 +32,7 @@ class PassingDataActivity : AppCompatActivity() {
         // Set up the Spinner adapter
         val spinnerCountry = findViewById<Spinner>(R.id.spinnerCountry)
         val countriesAdapter = ArrayAdapter.createFromResource(
-            this,
-            R.array.countries_array,
-            android.R.layout.simple_spinner_item
+            this, R.array.countries_array, android.R.layout.simple_spinner_item
         )
         countriesAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
         spinnerCountry.adapter = countriesAdapter

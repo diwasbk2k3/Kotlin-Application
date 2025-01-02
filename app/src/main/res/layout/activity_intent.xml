@@ -39,10 +39,10 @@
 
     <TextView
         android:id="@+id/title"
-        android:layout_width="227dp"
-        android:layout_height="89dp"
-        android:layout_marginStart="88dp"
-        android:layout_marginTop="30dp"
+        android:layout_width="215dp"
+        android:layout_height="91dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="36dp"
         android:fontFamily="cursive"
         android:text="Welcome"
         android:textColor="#E91E63"
